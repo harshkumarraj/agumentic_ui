@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #ffffff; /* Customize the background color of the navbar */
+    border-bottom: 1px solid #000000; /* Add a black line at the bottom of the navbar */
+    padding: 10px;
+  }
+  
+  .navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar__logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__logo-img {
+    width: 60px; /* Adjust the width as per your logo size */
+    height: 60px; /* Adjust the height as per your logo size */
+    margin-right: 10px;
+  }
+  
+  .navbar__company-name {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  
+  /* Add a bit of space between logo and company name */
+  .navbar__company-name {
+    margin-left: 5px;
+  }
+  
+  /* Ensure the navigation menu items are properly spaced */
+  .navbar__menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__item {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar__item:last-child {
+    margin-right: 0;
+  }
+  
+  /* Ensure the icons are properly spaced */
+  .navbar__icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__icon {
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  

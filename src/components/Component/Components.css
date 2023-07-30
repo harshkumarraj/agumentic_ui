@@ -1,0 +1,48 @@
+/* Components.css */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap');
+.Components {
+    padding: 0 20px;
+  }
+.fade-text {
+    color: #a9a7a7 
+  }
+  
+  /* Components.css */
+
+.card-container {
+    display: flex;
+    gap:30px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    font-family: 'Saira Condensed', sans-serif;
+  }
+  
+  .card {
+    flex-basis: calc(33.33% - 20px); /* Set the flex basis to occupy one-third of the container width with some spacing between cards */
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; /* Add some space between the rows of cards */
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    background-color: #ffffff;
+    color: #ef740f;
+    border: 1px solid #ef740f ;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  
